@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Flyer;
+use App\Repositories\Flyer;
 use App\Helpers\DateValidator;
 use App\Helpers\Pagination;
 
