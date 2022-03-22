@@ -11,6 +11,13 @@ ShopFully backend is an application that expose rest API endpoint that show a li
 3. Execute the following command
 
 ```bash
+$ cp .env.example .env # Create .env file copying .env.example
 $ composer install # Install packages
-$ php artisan serve # Start the server
+$ php artisan key:generate # Generate key
+$ php artisan storage:link # Link storage
+$ php artisan serve # Start server
 ```
+
+Wait a few seconds and check main page: http://localhost:8000 (or whatever port it choose)
+
+
