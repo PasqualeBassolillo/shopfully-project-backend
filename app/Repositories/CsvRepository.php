@@ -6,7 +6,6 @@ use League\Csv\Statement;
 
 abstract class CsvRepository
 {
-
     /**
      * Reader
      *
@@ -40,7 +39,6 @@ abstract class CsvRepository
      * 
      * Check the connection
      * 
-     * 
      */
     public function getFile()
     {
@@ -59,7 +57,8 @@ abstract class CsvRepository
      * 
      * Get all data
      * 
-     * @param array $options 
+     * @param int $offset
+     * @param int $limit
      * 
      * @return array
      */

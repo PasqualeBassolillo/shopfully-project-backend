@@ -5,15 +5,15 @@ namespace App\Helpers;
 class Pagination {
     
     /**
-     * isDateBetween
+     * getPagination
      * 
-     * This method allow to define if the current date is between start and end date.
+     * This method allow to get all pagination parameter.
      *
-     * @param  string $start
-     * @param  string $end
-     * @param  string $selected
+     * @param  array $array
+     * @param  int $limit
+     * @param  int $currentPage
      * 
-     * @return bool
+     * @return array $pagination
      */
     public static function getPagination($array, $limit, $currentPage) :array {
         $countArray = count($array);

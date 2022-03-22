@@ -12,7 +12,7 @@ class FlyerController extends Controller
     /**
      * Display a listing of the all flyers.
      *
-     * @return \Illuminate\View\View
+     * @return string
      */
     public function index(Request $request)
     {
