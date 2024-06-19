@@ -8,6 +8,7 @@ This backend service provides APIs to retrieve data on promotional flyers. It su
 
 - **GET - Complete list of flyers:** /api/flyers
 - **GET - Paginated list of flyers:** /api/flyers?page=1&limit=100
+- **GET - Flyer details:** /api/flyers/{id}
 
 ## Tech Stack
 

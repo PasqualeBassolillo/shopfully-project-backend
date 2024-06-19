@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/flyers', 'App\Http\Controllers\FlyerController@index');
+Route::get('/flyers/{id}', 'App\Http\Controllers\FlyerController@show');
